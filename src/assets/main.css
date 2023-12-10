@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+.text-header-xl {
+  @apply font-sans font-bold;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.text-header-l {
+  @apply font-sans font-bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.text-header-m {
+  @apply font-sans font-bold;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.text-header-s {
+  @apply font-sans font-bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2.4px;
+}
+
+.text-body-l {
+  @apply font-sans font-bold;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.text-body-m {
+  @apply font-sans font-medium;
+  font-size: 12px;
+  line-height: 15px;
+}
